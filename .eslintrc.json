@@ -23,10 +23,14 @@
     "browser": true
   },
   "extends": "eslint:recommended",
-  "ecmaFeatures": {
-    "jsx": true,
-    "experimentalObjectRestSpread": true,
-    "modules": true
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    }
   },
   "plugins": [
     "react"
